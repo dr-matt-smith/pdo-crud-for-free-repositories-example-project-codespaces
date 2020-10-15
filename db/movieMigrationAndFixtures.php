@@ -4,7 +4,7 @@ require_once __DIR__ . '/../vendor/autoload.php';
 use Tudublin\Movie;
 use Tudublin\MovieRepository;
 
-$movieRespository = new MovieRepository();
+$movieRepository = new MovieRepository();
 
 // (1) drop then create table
 $movieRepository->dropTable();
